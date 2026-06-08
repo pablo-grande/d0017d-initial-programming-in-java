@@ -1,0 +1,45 @@
+{
+  "name": "D0017D - Initial Programming in Java",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "25",
+      "jdkDistro": "ms"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "formulahendry.code-runner"
+      ],
+      "settings": {
+        "java.configuration.runtimes": [
+          {
+            "name": "JavaSE-25",
+            "path": "/home/vscode/.sdkman/candidates/java/current",
+            "default": true
+          }
+        ],
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "java.import.maven.enabled": false,
+        "java.import.gradle.enabled": false,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.fontSize": 16,
+        "files.autoSave": "onFocusChange",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "code-runner.runInTerminal": true,
+        "code-runner.saveFileBeforeRun": true,
+        "code-runner.executorMap": {
+          "java": "cd $dir && java $fileName"
+        }
+      }
+    }
+  },
+
+  "postCreateCommand": "bash .devcontainer/setup.sh && echo '✅ Java ready. Open Hello.java and click ▶ Run to get started!'"
+}
