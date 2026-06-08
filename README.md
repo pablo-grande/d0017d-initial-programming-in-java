@@ -1,27 +1,44 @@
 # D0017D — Initial Programming in Java
 
-Welcome! This course is designed for complete beginners, no prior programming experience needed.
+Welcome! This course is designed for complete beginners — no prior programming experience needed.
 
 ---
 
-## Step 1 — Create your own copy
+## Setup Checklist
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Division-of-Computer-Science-LTU-Sweden/d0017d-initial-programming-in-java/generate)
-
-Click the button above and create a repository under your own GitHub account. You only need to do this once for the whole course.
+- [ ] Created your own copy from the course template
+- [ ] Opened your Codespace for the first time
+- [ ] Entered your name and LTU username when the terminal prompted you
+- [ ] Ran `Hello.java` and saw `Hello, World!` in the terminal
 
 ---
 
-## Step 2 — Open in Codespaces
+## Step 1 — Open your Codespace
 
-Once you have your own copy, open it in a fully configured coding environment in your browser:
+Replace `YOUR-GITHUB-USERNAME` in the link below with your GitHub username, then open it in your browser:
 
-1. Go to **your** repository on GitHub
-2. Click the green **Code** button
-3. Select the **Codespaces** tab
-4. Click **Create codespace on main**
+```
+https://codespaces.new/YOUR-GITHUB-USERNAME/d0017d-initial-programming-in-java
+```
 
-> The environment takes about two to three minutes to set up the first time. Do not click anything, else you may corrupt the repository
+> **Important:** only create one Codespace. If you already have one, find it at [github.com/codespaces](https://github.com/codespaces) and reopen it instead of creating a new one.
+
+After your first setup, use this button to return:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](CODESPACE_URL_PLACEHOLDER)
+
+> The environment takes about two to three minutes to set up the first time.
+
+---
+
+## Step 2 — Enter your details
+
+When you open a terminal for the first time you will be prompted to enter:
+
+- Your **full name**
+- Your **LTU username** (e.g. `abc12def`)
+
+Your details are saved to `student.md` and committed to your repository automatically.
 
 ---
 
