@@ -1,12 +1,12 @@
 # D0017D — Initial Programming in Java
 
-Welcome! This course is designed for complete beginners — no prior programming experience needed.
+Welcome! This course is designed for complete beginners, no prior programming experience needed.
 
 ---
 
 ## Step 1 — Create your own copy
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sandeepspatil/d0017d-intitial-programming-i-java/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Division-of-Computer-Science-LTU-Sweden/d0017d-initial-programming-in-java/generate)
 
 Click the button above and create a repository under your own GitHub account. You only need to do this once for the whole course.
 
@@ -21,7 +21,7 @@ Once you have your own copy, open it in a fully configured coding environment in
 3. Select the **Codespaces** tab
 4. Click **Create codespace on main**
 
-> The environment takes about two to three minutes to set up the first time.
+> The environment takes about two to three minutes to set up the first time. Do not click anything, else you may corrupt the repository
 
 ---
 
