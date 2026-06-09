@@ -8,7 +8,6 @@ Welcome! This course is designed for complete beginners — no prior programming
 
 - [ ] Created your own copy from the course template
 - [ ] Opened your Codespace for the first time
-- [ ] Entered your name and LTU username when the terminal prompted you
 - [ ] Ran `Hello.java` and saw `Hello, World!` in the terminal
 
 ---
@@ -31,18 +30,7 @@ After your first setup, use this button to return:
 
 ---
 
-## Step 2 — Enter your details
-
-When you open a terminal for the first time you will be prompted to enter:
-
-- Your **full name**
-- Your **LTU username** (e.g. `abc12def`)
-
-Your details are saved to `student.md` and committed to your repository automatically.
-
----
-
-## Step 3 — Run your first program
+## Step 2 — Run your first program
 
 1. Open `Hello.java` in the file explorer on the left
 2. Click the **▶ Run** button in the top right corner of the editor

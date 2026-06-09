@@ -41,5 +41,5 @@
     }
   },
 
-  "postCreateCommand": "bash .devcontainer/setup.sh && echo '✅ Java 25 ready. Open a terminal to complete your setup.'"
+  "postCreateCommand": "bash .devcontainer/setup.sh && echo '✅ Java 25 ready. Open Hello.java and click ▶ Run to get started!'"
 }
