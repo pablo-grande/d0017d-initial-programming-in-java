@@ -7,6 +7,7 @@ Welcome! This course is designed for complete beginners — no prior programming
 ## Setup Checklist
 
 - [ ] Created your own copy from the course template
+- [ ] Register as student
 - [ ] Opened your Codespace for the first time
 - [ ] Ran `Hello.java` and saw `Hello, World!` in the terminal
 
@@ -30,7 +31,17 @@ After your first setup, use this button to return:
 
 ---
 
-## Step 2 — Run your first program
+## Step 2 — Register as student
+
+1. Go to 'Issues' tab on your GitHub repository page and create a 'New Issue'.
+
+2. Select 'Student Registration' template and fill up the form with your information.
+
+3. Check that file STUDENT.md is correctly populated with your information.
+
+---
+
+## Step 3 — Run your first program
 
 1. Open `Hello.java` in the file explorer on the left
 2. Click the **▶ Run** button in the top right corner of the editor
