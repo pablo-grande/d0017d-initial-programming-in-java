@@ -1,0 +1,35 @@
+name: Register Student
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  write-student-file:
+    if: contains(github.event.issue.title, 'Student Registration')
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      issues: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract values from issue body
+        id: extract
+        run: |
+          FULL_NAME=$(echo "${{ github.event.issue.body }}" | grep -A2 "Full Name" | tail -n1)
+          LTU_USERNAME=$(echo "${{ github.event.issue.body }}" | grep -A2 "LTU Username" | tail -n1)
+
+          sed -i "s/| Full Name | .*/| Full Name | ${FULL_NAME} |/" STUDENT.md
+          sed -i "s/| LTU Username | .*/| LTU Username | ${LTU_USERNAME} |/" STUDENT.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add STUDENT.md
+          git commit -m "Add student registration info"
+          git push

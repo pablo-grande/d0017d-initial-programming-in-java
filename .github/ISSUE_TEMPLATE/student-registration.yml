@@ -1,0 +1,27 @@
+name: Student Registration
+description: Fill this form to register your course username.
+title: "Student Registration"
+labels: ["student"]
+body:
+  - type: input
+    id: full_name
+    attributes:
+      label: Full Name
+      description: Enter your full name.
+    validations:
+      required: true
+
+  - type: input
+    id: ltu_username
+    attributes:
+      label: LTU Username
+      description: Enter your LTU Username.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Anything else you want the instructor to know.
+      placeholder: Optional
